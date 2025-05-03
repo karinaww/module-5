@@ -5,7 +5,7 @@
     color: rgba(46, 54, 62, 1);
 }
 
-body{
+.big-container{
     width: 1180px;
     margin: auto;
     background-color: rgba(255, 255, 255, 1);
@@ -22,7 +22,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
-    padding: 20px;
 }
 
 .card {
@@ -82,9 +81,9 @@ button:hover {
 */
 
 #img-leaf {
-    position: relative; 
+    position: absolute; 
     top: 1025px;
-    left: 1130px;
+    right: 236px;
 }
 
 #img-berry {
