@@ -6,9 +6,10 @@
 }
 
 .big-container{
-    width: 1180px;
+    width: 1920px;
     margin: auto;
     background-color: rgba(255, 255, 255, 1);
+    position: relative;
 }
 
 h1 {
@@ -22,6 +23,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
+    width: 1180px;
+    margin: auto;
 }
 
 .card {
@@ -69,25 +72,26 @@ button:hover {
     background-color: rgb(255, 201, 4);
 }
 
-/*
-#img-berry {
-    position: relative;
-    transform: rotate(63.54deg) scaleY(-1);
-    left: 241px;
-    top: 228px;
-    width: 170px;
-    height: 174px;
-}
-*/
-
 #img-leaf {
     position: absolute; 
     top: 1025px;
     right: 236px;
+    width: 167px;
+    height: 167px;
 }
 
 #img-berry {
     position: absolute;
     top: 228px;
-    right: 1104px;
+    left: 214px;
+    width: 170px;
+    height: 174px;
+}
+
+#img-leaf2 {
+    position: absolute; 
+    top: 1381px;
+    left: 252px;
+    width: 109px;
+    height: 113px;
 }
