@@ -6,6 +6,8 @@
 
 body {
     background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
 }
 
 .header {
@@ -54,7 +56,7 @@ button {
     display: none;
 }
 
-.header__nav.mobile .header__cart {
+.header__nav.mobile {
     display: flex;
 }
 
@@ -81,6 +83,7 @@ button {
     font-size: 30px;
     font-weight: 500;
     line-height: 100%;
+    color: rgba(44, 45, 53, 1);
 }
 
 .container1-text h1 span {
@@ -90,8 +93,9 @@ button {
 .container1 button {
     padding: 20px 60px;
     color: rgba(89, 141, 102, 1);
-    border: 2px solid rgba(89, 141, 102, 1);
+    border: 1px solid rgba(89, 141, 102, 1);
     margin-top: 40px;
+    font-size: 18px;
 }
 
 .container2 {
@@ -99,6 +103,7 @@ button {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    font-weight: 500;
 }
 
 .countries {
@@ -138,7 +143,7 @@ button {
 .container__mobile {
     background-image: url(./picture/pic_background.png);
     background-repeat: no-repeat; 
-    width: 100vw;
+    width: 100%;
     height: 552px;
     color: white;
     display: grid;
@@ -360,6 +365,12 @@ hr {
     hr {
         display: none;
     }
+
+     .container1-text h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
 }
 
 
@@ -385,10 +396,6 @@ hr {
         height: 621px;
     }
 
-    .container1-text h1{
-        font-size: 60px;
-    }
-
     .container1-text {
         width: 540px;
     }
@@ -396,6 +403,10 @@ hr {
     .container2 {
         width: 1110px;
         margin: auto;
+    }
+
+    .container2 h1 {
+        font-size: 40px;
     }
 
     .header__nav {
@@ -407,12 +418,33 @@ hr {
         padding: 30px;
     }
 
+    .header__nav-item {
+    font-size: 23px;
+    font-weight: 500;
+}
+
     .reproductions-container {
         display: grid;
         align-items: center;
         justify-content: space-between;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
+    }
+
+    .reproductions__mini h3 {
+        font-size: 30px;
+    }
+
+    .reproductions__mini button {
+        font-size: 20px;
+    }
+
+    .reproductions__mini p {
+        font-size: 18px;
+    }
+
+    .reproductions__mini_price {
+        font-size: 24px;
     }
 
     .mobile {
@@ -435,6 +467,10 @@ hr {
         flex-direction: row;
         background-color: rgba(225, 237, 230, 1);
         
+    }
+
+    .container1 button {
+        font-size: 20px;
     }
 
     .header__cart {
@@ -468,10 +504,12 @@ hr {
 
     .get-acquainted {
         width: 257px;
+        font-size: 20px;
     }
 
     .container__mobile_text {
         width: 540px;
+        font-size: 40px;
     }
 
     .container__mobile_margin {
