@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
 
 .big-container {
   width: 1920px;
+  height: 1926px;
   margin: auto;
   background-color: rgba(255, 255, 255, 1);
   position: relative;
@@ -88,26 +88,29 @@ button:hover {
   background-color: rgb(255, 201, 4);
 }
 
-#img-leaf {
+#img-berry img {
   position: absolute;
-  top: 1025px;
-  right: 236px;
-  width: 167px;
-  height: 167px;
-}
-
-#img-berry {
-  position: absolute;
-  top: 228px;
+  top: 380.19px;
   left: 214px;
   width: 170px;
   height: 174px;
+  border: 2px solid black;
 }
 
-#img-leaf2 {
+#img-leaf img {
   position: absolute;
-  top: 1381px;
-  left: 252px;
-  width: 109px;
-  height: 113px;
+  top: 1192px;
+  right: 236px;
+  width: 161px;
+  height: 167px;
+  border: 2px solid black;
+}
+
+#img-leaf2 img {
+  position: absolute;
+  top: 1386.15px;
+  left: 369.84px;
+  width: 108.93232165518859;
+  height: 112.99189204274694;
+  border: 2px solid black;
 }
