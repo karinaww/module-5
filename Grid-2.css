@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: rgba(44, 45, 53, 1);
+}
+
+.reproductions-container {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 1110px;
+  margin: 60px auto;
+}
+
+.reproductions__card {
+  background-color: rgba(225, 237, 230, 1);
+  padding: 20px;
+  width: 350px;
+  height: 730px;
+}
+
+.reproductions__card img {
+  width: 310px;
+  height: 422px;
+}
+
+.reproductions__card_name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  color: rgba(134, 146, 139, 1);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.reproductions__card h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 100%;
+  color: rgba(44, 45, 53, 1);
+  margin-bottom: 8px;
+}
+
+.reproductions__card p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  color: rgba(44, 45, 53, 1);
+}
+
+.reproductions__card_price {
+  font-size: 24px;
+  margin-top: 30px;
+  line-height: 100%;
+  color: rgba(89, 141, 102, 1);
+}
+
+.reproductions__card button {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(89, 141, 102, 1);
+  width: 310px;
+  height: 65px;
+  border: 1px solid rgba(89, 141, 102, 1);
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.reproductions-container-2 {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 730px;
+  margin: 60px auto;
+}

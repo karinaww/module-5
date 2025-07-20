@@ -11,7 +11,6 @@ body {
   width: 1920px;
   height: 1926px;
   margin: auto;
-  background-color: rgba(255, 255, 255, 1);
   position: relative;
 }
 
@@ -80,6 +79,7 @@ button {
   font-size: 18px;
   border: none;
   font-weight: 500;
+  line-height: 150%;
   color: rgba(46, 54, 62, 1);
 }
 
@@ -89,20 +89,27 @@ button:hover {
 }
 
 #img-berry img {
-  position: absolute;
-  top: 380.19px;
-  left: 214px;
   width: 170px;
   height: 174px;
-  border: 2px solid black;
+  transform: rotate(-63.54deg);
+
+  filter: blur(7px);
+}
+
+#img-berry {
+  position: absolute;
+  top: 228px;
+  left: 250px;
 }
 
 #img-leaf img {
   position: absolute;
-  top: 1192px;
+  top: 1025px;
   right: 236px;
   width: 161px;
   height: 167px;
+  transform: rotate(180deg);
+  filter: blur(27px);
   border: 2px solid black;
 }
 
@@ -110,7 +117,9 @@ button:hover {
   position: absolute;
   top: 1386.15px;
   left: 369.84px;
-  width: 108.93232165518859;
-  height: 112.99189204274694;
+  width: 109px;
+  height: 112.99189204274694px;
   border: 2px solid black;
+  transform: rotate(-92.61deg);
+  filter: blur(27px);
 }
